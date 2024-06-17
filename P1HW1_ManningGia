@@ -1,0 +1,35 @@
+# Gia Manning
+# 06-16-2024
+# P1HW1
+# A Python program that uses mathematical expressions
+
+
+
+# Program to calculate exponents and perform addition and subtraction
+
+# Exponent calculation
+print("-----Calculating Exponents----")
+
+# Get the base value and exponent from the user
+base_value = int(input("Enter an integer as the base value: "))
+exponent = int(input("Enter an integer as the exponent: "))
+
+# Calculate the exponent
+result = base_value ** exponent
+
+# Display the result
+print(f"\n{base_value} raised to the power of {exponent} is {result} !!")
+
+# Addition and Subtraction
+print("\n-----Addition and Subtraction----")
+
+# Get the integers from the user
+starting_integer = int(input("Enter a starting integer: "))
+integer_to_add = int(input("Enter an integer to add: "))
+integer_to_subtract = int(input("Enter an integer to subtract: "))
+
+# Calculate the result
+result_add_subtract = starting_integer + integer_to_add - integer_to_subtract
+
+# Display the result
+print(f"\n{starting_integer} + {integer_to_add} - {integer_to_subtract} is equal to {result_add_subtract}")
